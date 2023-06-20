@@ -5,7 +5,10 @@ import (
 )
 
 func Ejercicio1(numeroTxt string) (int, string) {
-	numero, _ := strconv.Atoi(numeroTxt)
+	numero, err := strconv.Atoi(numeroTxt)
+	if err != nil {
+		return 0, "error in conversion" + err.Error()
+	}
 	if numero > 100 {
 		return numero, "Es mayor a 100"
 	} else {
