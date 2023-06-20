@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/javierrosas26/godesde0/ejercicios"
+	"github.com/javierrosas26/godesde0/iteraciones"
 )
 
 func main() {
@@ -24,9 +22,14 @@ func main() {
 	default:
 		fmt.Printf("%s \n", os)
 
-	}*/
+	}
 
-	numero, texto := ejercicios.Ejercicio1("90")
+	numero, texto := ejercicios.Ejercicio1("190")
 	fmt.Println(numero)
 	fmt.Println(texto)
+
+	teclado.IngresoNumeros()*/
+
+	iteraciones.Iterar()
+
 }
