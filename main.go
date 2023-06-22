@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/javierrosas26/godesde0/ejercicios"
+	"github.com/javierrosas26/godesde0/files"
 )
 
 func main() {
@@ -30,8 +30,13 @@ func main() {
 
 	teclado.IngresoNumeros()
 
-	iteraciones.Iterar()*/
+	iteraciones.Iterar()
 
-	ejercicios.PedirNumero()
+	fmt.Println(ejercicios.TabladeMultiplicar())*/
+
+	//files.GrabaTabla()
+	//files.SumaTabla()
+
+	files.LeoArchivo()
 
 }

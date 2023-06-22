@@ -9,24 +9,24 @@ import (
 
 var numero int
 var err error
+var texto string
 
-func PedirNumero() {
+func TabladeMultiplicar() string {
 	escanear(*bufio.NewScanner(os.Stdin))
 	fmt.Println("la tabla del 1 al 10 del numero", numero, "es: ")
 	for i := 1; i <= 10; i++ {
-		fmt.Printf("%d x %d = %d \n", numero, i, i*numero)
+		texto += fmt.Sprintf("%d x %d = %d \n", numero, i, i*numero)
 	}
+	return texto
 }
 
 func escanear(scanner bufio.Scanner) {
-	for {
+	fmt.Println("Ingrese el numero ")
+	for scanner.Scan() {
 		fmt.Println("Ingrese el numero ")
-		if scanner.Scan() {
-			numero, err = strconv.Atoi(scanner.Text())
-			if err == nil {
-				break
-			}
+		numero, err = strconv.Atoi(scanner.Text())
+		if err == nil {
+			break
 		}
-
 	}
 }
