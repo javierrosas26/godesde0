@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/javierrosas26/godesde0/files"
+	"github.com/javierrosas26/godesde0/funciones"
 )
 
 func main() {
@@ -37,6 +37,8 @@ func main() {
 	//files.GrabaTabla()
 	//files.SumaTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+
+	funciones.Exponencia(2)
 
 }
