@@ -1,6 +1,9 @@
 package main
 
-import "github.com/javierrosas26/godesde0/users"
+import (
+	e "github.com/javierrosas26/godesde0/ejer_interfaces"
+	"github.com/javierrosas26/godesde0/modelos"
+)
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(169)
@@ -37,6 +40,10 @@ func main() {
 
 	//files.LeoArchivo()
 
-	users.AltaUsuario()
+	Pedro := new(modelos.Hombre)
+	Maria := new(modelos.Mujer)
+
+	e.HumanosRespirando(Pedro)
+	e.HumanosRespirando(Maria)
 
 }
