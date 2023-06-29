@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/javierrosas26/godesde0/funciones"
-)
+import "github.com/javierrosas26/godesde0/arreglos_slices"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(169)
@@ -39,6 +37,6 @@ func main() {
 
 	//files.LeoArchivo()
 
-	funciones.Exponencia(2)
+	arreglos_slices.Capacidad()
 
 }
