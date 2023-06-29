@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "github.com/javierrosas26/godesde0/ejer_interfaces"
-	"github.com/javierrosas26/godesde0/modelos"
+	d "github.com/javierrosas26/godesde0/defer_panic"
 )
 
 func main() {
@@ -33,7 +32,7 @@ func main() {
 
 	iteraciones.Iterar()
 
-	fmt.Println(ejercicios.TabladeMultiplicar())*/
+	fmt.Println(ejercicios.TabladeMultiplicar())
 
 	//files.GrabaTabla()
 	//files.SumaTabla()
@@ -44,6 +43,8 @@ func main() {
 	Maria := new(modelos.Mujer)
 
 	e.HumanosRespirando(Pedro)
-	e.HumanosRespirando(Maria)
+	e.HumanosRespirando(Maria)*/
+
+	d.EjemploPanic()
 
 }
