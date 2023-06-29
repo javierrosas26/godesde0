@@ -1,6 +1,6 @@
 package main
 
-import "github.com/javierrosas26/godesde0/mapas"
+import "github.com/javierrosas26/godesde0/users"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(169)
@@ -37,6 +37,6 @@ func main() {
 
 	//files.LeoArchivo()
 
-	mapas.MostrarMapas()
+	users.AltaUsuario()
 
 }
